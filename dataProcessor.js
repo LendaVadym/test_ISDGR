@@ -127,7 +127,7 @@ class DataProcessor {
       });
       return obj;
     });
-    return new DataProcessor(selected);
+    return new DataProcessor. (selected);
   }
 
   /**
