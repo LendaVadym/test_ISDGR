@@ -5,6 +5,7 @@ class DataProcessor {
     this.data = data;
     this.filters = [];
     this.transformations = [];
+    this.transformations1 = [];
   }
 
   /**
