@@ -9,7 +9,7 @@ class EventEmitter {
   /**
    * Registers an event listener
    */
-  on(event, listener) {
+  on(event, listener, test=false) {
     if (!this.events[event]) {
       this.events[event] = [];
     }
